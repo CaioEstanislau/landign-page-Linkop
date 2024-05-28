@@ -103,13 +103,26 @@ ul img {
     z-index: 1;
 }
 
+.obsidianlogo img {
+    width: 47px;
+    position: absolute;
+    z-index: 1;
+    bottom: 171px;
+    
+}
+
+.notionlogo img {
+    position: absolute;
+    
+}
+
 
 ul li a {
     display: flex;
     text-decoration: none;
     justify-content: center;
     padding: 16px 24px;
-    width: 700px;
+    
 
     color: #fff;
     background-color: #262626;
@@ -123,6 +136,21 @@ ul li a {
 ul li a:hover{
     background: rgba(255, 255, 255, 0.05) ;
     border: 1.5px solid white;
-    
-    
+}
+
+@media (max-width: 1920px) {
+    ul li {
+        width: 500px;
+    }
+}
+@media (max-width: 500px){
+    ul li{
+        width: 350px;
+    }
+}
+@media (max-width: 350px){
+    ul li{
+        width: 250px;
+    }
+
 }
