@@ -15,3 +15,7 @@ img {
     height: 200px;
 }
 
+#sociallinks a {
+    text-decoration: none;
+    margin: 5px;
+}
