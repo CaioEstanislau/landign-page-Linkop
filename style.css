@@ -43,7 +43,45 @@ li img {
 width: 120px;
 }
 
-#sociallinks a {
-    text-decoration: none;
-    margin: 5px;
+#sociallinks{
+    display: flex;
+    justify-content: center;
+
+    gap: 24px;
 }
+
+
+#sociallinks a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 20px;
+    
+    transition: 0.2s;
+}
+
+#sociallinks a:hover{
+    font-size: 23px;
+
+}
+
+.bi-github, .bi-instagram, .bi-discord, .bi-linkedin{
+    transition: 0.2s;
+}
+
+
+.bi-github:hover{
+    color: #000000;
+}
+.bi-instagram:hover {
+    background-image: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.bi-discord:hover{
+    color: #5865F2;
+}
+.bi-linkedin:hover {
+    color: #0A66C2;
+}
+
