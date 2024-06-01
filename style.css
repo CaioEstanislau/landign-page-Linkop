@@ -104,18 +104,7 @@ ul img {
     z-index: 1;
 }
 
-.obsidianlogo img {
-    width: 47px;
-    position: absolute;
-    z-index: 1;
-    bottom: 171px;
-    
-}
 
-.notionlogo img {
-    position: absolute;
-    
-}
 
 
 ul li a {
@@ -154,39 +143,3 @@ ul li a:hover{
         width: 250px;
     }
 }
-
-
-/*anime dlc*/
-
-#uchihathemes{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    
-}
-
-#uchihathemes img{
-    width: 40px;
-    transition: 0.2s;
-
-}
-
-#uchihathemes img:hover{
-    width: 50px;
-    rotate: 0.5turn;
-    
-
-}
-
-
-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    outline: none;
-    transition: border 0.3s;
-}
-
-
